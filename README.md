@@ -20,8 +20,8 @@ File Name Grabber is a convenient application that allows you to:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/namegrabber.git
-cd namegrabber
+git clone https://github.com/LeonWGal/galFNG.git
+cd galFNG
 ```
 
 2. Install dependencies:
