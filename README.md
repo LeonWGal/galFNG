@@ -1,2 +1,0 @@
-# galFNG
-File Name Grabber
