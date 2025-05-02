@@ -22,8 +22,8 @@ File Name Grabber - это удобное приложение, которое �
 
 1. Клонируйте репозиторий:
 ```bash
-git clone https://github.com/yourusername/namegrabber.git
-cd namegrabber
+git clone https://github.com/LeonWGal/galFNG.git
+cd galFNG
 ```
 
 2. Установите зависимости:
