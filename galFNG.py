@@ -262,11 +262,15 @@ class FileNameGrabber(QMainWindow):
             return
             
         files = os.listdir(self.current_folder)
+        current_text = self.separator_combo.currentText()
+        if not current_text:
+            return
+            
         separator = {
             self.translate("Comma"): ", ",
             self.translate("Space"): " ",
             self.translate("New line"): "\n"
-        }[self.separator_combo.currentText()]
+        }[current_text]
         
         self.text_edit.setText(separator.join(files))
         
